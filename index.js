@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 mongoose
-  .connect("mongodb+srv://jodduser:<Pass>@cluster0.ps9vb0j.mongodb.net/", {
+  .connect("mongodb+srv://jodduser:jodduser123@cluster0.ps9vb0j.mongodb.net/", {
     useNewURLParser: true,
     useUnifiedTopology: true,
   })
